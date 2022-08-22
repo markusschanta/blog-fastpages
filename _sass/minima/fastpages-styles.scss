@@ -24,17 +24,13 @@ img.emoji{
 .page-content {
         -webkit-font-smoothing: antialiased !important;
         text-rendering: optimizeLegibility !important;
-        font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif !important;
+        font-family: "Roboto Slab", Roboto, "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif !important;
 }
 
 // make non-headings slightly lighter
 .post-content p, .post-content li {
    font-size: 20px;
    color: #515151;
-}
-
-.post-link{
-    font-weight: normal;
 }
 
 // change padding of headings
@@ -56,7 +52,8 @@ p {
 }
 
 h1, h2, h3, h4 {
-    font-weight: normal !important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700 !important;
     margin-bottom:0.5rem !important;  
     code {
       font-size: 100%;
@@ -66,9 +63,6 @@ h1, h2, h3, h4 {
 pre {
     margin-bottom:1.5rem !important; 
 }
-
-// make sure the post title doesn't have too much spacing
-.post-title { margin-top: .5rem !important; }
 
 li {
   h3, h4 {
