@@ -413,11 +413,11 @@ table th { text-align: center !important; }
 
 .svg-icon.orange { width: 30px; height: 23px; }
 
-code { font-size: 15px !important; position: relative; bottom: 2px; }
+code { font-size: 18px !important; position: relative; bottom: 1px; }
 
 .code_cell { margin: 1.5rem 0px !important; }
 
-pre code { font-size: 15px !important; bottom: 0px; }
+pre code { font-size: 18px !important; bottom: 0px; }
 
 pre, code { border: none; }
 
@@ -477,5 +477,21 @@ pre, code { border: none; }
 .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #bd93f9; }
 
 .highlight .gd { color: #ff5555; }
+
+body { font-family: 'Josefin Sans', sans-serif !important; }
+
+.page-content { font-size: 18px; }
+
+a:visited { color: #2a7ae2; }
+
+a:hover { color: #111111; text-decoration: underline; }
+
+.site-header { font-size: 16px; padding-top: 5px; }
+
+.site-header a:hover { text-decoration: none; color: #2a7ae2; }
+
+.site-title { font-size: 1.5rem; font-weight: 700; }
+
+.flash .octicon { margin-bottom: 3px; }
 
 /*# sourceMappingURL=style.css.map */
