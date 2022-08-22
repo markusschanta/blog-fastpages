@@ -1,0 +1,35 @@
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.page-content {
+    font-size: 18px;
+}
+
+a:visited {
+    color: $link-base-color;
+}
+
+a:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+}
+
+.site-header {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.site-header a:hover {
+    text-decoration: none;
+    color: $link-base-color;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.flash .octicon {
+    margin-bottom: 3px;
+}
