@@ -33,3 +33,24 @@ a:hover {
 .flash .octicon {
     margin-bottom: 3px;
 }
+
+.vg-tooltip table {
+    margin-bottom: 0;
+}
+
+.vg-tooltip table td {
+    border: none;
+}
+
+.vg-tooltip table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.vg-tooltip table th,
+.vg-tooltip table td {
+    padding: 0;
+}
+
+#vg-tooltip-element table {
+    color: black;
+}
